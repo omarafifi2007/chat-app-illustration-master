@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Content
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Border
+{
+    top: 0;
+    z-index: -1;
+    width: 400px;
+    height: 80vh;
+    position: absolute;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background: linear-gradient(to top ,hsl(276, 55%, 52%), hsl(293, 100%, 63%));
+}
+.Chat
+{
+    top: 170px;
+    right: 620px;
+    width: 300px;
+    height: 68vh;
+    background: #fff;
+    position: absolute;
+    border-radius: 30px;
+    
+}
+.Foot
+{
+    width: 100%;
+    height: 10vh;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: linear-gradient(to right ,hsl(276, 55%, 52%), hsl(293, 100%, 63%));
+}
+.Foot img
+{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.P
+{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Chat h5
+{
+    margin: 30px;
+}
+.Row
+{
+    direction: rtl;
+}
+.Row img
+{
+    width: 55px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+h4
+{
+    margin: 15px;
+}
+.col
+{
+    width: 200px;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border-bottom-left-radius: 2px;
+    justify-content: space-between;
+    background: linear-gradient(to left ,hsl(276, 55%, 52%), hsl(293, 100%, 63%));
+}
+.col p
+{
+    margin: 10px;
+}
+.Tex
+{
+    margin: 30px;
+}
